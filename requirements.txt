@@ -1,1 +1,7 @@
-
+# ───────────── requirements.txt ─────────────
+streamlit
+firebase-admin
+requests
+geopy
+pandas
+pydeck
