@@ -12,6 +12,14 @@ init_firebase()
 lang = st.sidebar.selectbox("Select Language", options=list(LANGUAGES.keys()))
 T = LANGUAGES[lang]
 
+
+lang = st.selectbox("🌐 Language", ["English", "Hindi"])
+if lang == "Hindi":
+    st.title("🔌 ईवी चार्जिंग स्टेशन बुकिंग")
+else:
+    st.title("🔌 EV Charging Station Booking")
+
+
 st.title(T['app_title'])
 
 # Tabs
