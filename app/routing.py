@@ -10,6 +10,9 @@ from app.services.charger_api import get_all_stations
 
 def render_map(lang):
     stations = get_all_stations()
+    # In routing.py
+    station_id = st.query_params.get("station_id")
+   
     df = pd.DataFrame(stations)
     st.subheader("🔌 EV Charging Locations")
     st.map(df[['latitude', 'longitude']])
