@@ -1,1 +1,4 @@
-
+# ───────────── data/feedbacks.csv ─────────────
+name,station_id,rating,comment
+test1,1,5,"Great location, fast charger"
+test2,2,4,"Busy on weekends"
