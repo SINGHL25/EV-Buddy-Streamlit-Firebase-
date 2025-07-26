@@ -1,1 +1,7 @@
+# ───────────── data/dummy_chargers.json ─────────────
+[
+    {"id": "1", "name": "Tata Power - Connaught Place", "location": "Delhi", "latitude": 28.6315, "longitude": 77.2167, "type": "Fast", "status": "available"},
+    {"id": "2", "name": "Ather Grid - Koramangala", "location": "Bengaluru", "latitude": 12.9352, "longitude": 77.6141, "type": "Fast", "status": "busy"},
+    {"id": "3", "name": "EVRE - Powai", "location": "Mumbai", "latitude": 19.1186, "longitude": 72.9041, "type": "Slow", "status": "maintenance"}
+]
 
