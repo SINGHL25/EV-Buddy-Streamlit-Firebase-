@@ -1,1 +1,8 @@
 
+# ───────────── db_config/firebase_config.json ─────────────
+# Downloaded from Firebase > Project Settings > Service Accounts > Generate new private key
+# Do not upload this file to GitHub! Add to .gitignore
+{
+  "type": "service_account",
+  "project_id": "your_project_id",
+  ...
